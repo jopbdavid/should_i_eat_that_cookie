@@ -1,0 +1,159 @@
+body{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 16px;
+    margin:0;
+    background-color: #f78f3a;
+}
+h1{
+    text-align: center;
+    
+    font-size: 3rem;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+.bnt {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+    font-weight: bold;
+    font-size: 1rem;
+	padding: 16px 150px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    margin: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bnt:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.bnt:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.question {
+    color: white;
+    font-size: 2rem;
+    word-spacing: 10px;
+}
+
+.container {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
+
+
+}
+
+.art{
+    background-color:black;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    border-top: 4px solid white;
+    border-bottom: 3px solid white;
+    
+    
+
+ 
+
+}
+
+.about{
+    background-color:#B3A436;
+    color: #FFEE66;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    transition: height 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items:center;
+    font-size: 2.5rem;
+    font-weight:bold;
+    
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#close{
+    font-size: 1.75rem;
+    text-decoration: underline;
+    color: black;
+
+}
+#brain {
+    font-size: 2rem;
+    font-style: italic;
+    color: black;
+}
+
+.about.open{
+    height: 70%;
+    padding: 1.5rem;
+    
+}
+
+footer{
+background-color: #B3A436;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+height: 100px;
+}
+footer a {
+    text-decoration: none;
+    color:#FFEE66;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.bntreset{
+    background: linear-gradient(to right,#949684 ,#FFEE66);
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #949684;
+    color: black;
+    font-size: 0.75rem;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: inset -11px -3px 21px -4px #2D2D2D;
+    cursor:pointer;
+    
+   }
+   .bntreset:hover{
+    background: linear-gradient(to right,#a2a495 ,#80876e);
+    background-color: #a2a495;
+   }
+   .bntreset:active{
+    transform: scale(0.95);
+   }
+
+   #reset{
+    width: 30px;
+    height: 30px;
+   }
